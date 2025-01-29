@@ -9,9 +9,9 @@
                 <div class="navlist">
                     <a class="home" (click)="showBlock('Home')" #Hom>Home</a>
                     <a (click)="showBlock('About')" #Abt>About</a>
+                    <a (click)="showBlock('Skills')" #Skls>Skills</a>
                     <a (click)="showBlock('Projects')" #Pjts>Projects</a>
                     <a (click)="showBlock('Services')" #Servs>Services</a>
-                    <a (click)="showBlock('Skills')" #Skls>Skills</a>
                     <a (click)="showBlock('Contacts')" #Con>Contacts</a>
                 </div>
             </div>
@@ -34,7 +34,7 @@
         </div>
 
         <div id="Abt" class="About d-block" #about>
-            <b class="abt-title">ABOUT OF ME</b>
+            <b class="abt-title">ABOUT</b>
             <p class="about-lines">A full-stack developer and software engineer from Usilampatti,
                 Madurai. I hold a
                 BCA degree and have a strong passion for creating innovative digital solutions. With expertise in both
@@ -52,20 +52,25 @@
         <div id="Skls" class="Skills d-block" #skills>
             <b class="skill-title">SKILLS</b>
             <div class="skill-content d-block">
-                <span> Programming Languages :</span>
-                <li><i class="fab fa-node-js"></i>Node.js, <i class="fas fa-code"></i>TypeScript, <i
-                        class="fas fa-table"></i>
-                    SQL, <i class="fab fa-java"></i>
-                    Java, <i class="fas fa-server"></i>
-                    Servlet</li>
-                <span>Frameworks/Tools :</span>
-                <li><i class="fab fa-angular"></i>
-                    Angular, <i class="fas fa-database"></i>PostgreSQL</li>
-                <span> Other Skills :</span>
-                <li><i class="fas fa-keyboard"></i>
-                    English Typewriting</li>
-                <span>Soft Skills :</span>
-                <li>Problem-Solving, Communication, Collaboration</li>
+                <div class="skillList">
+                    <ul>
+                        <li class="shead"> Programming Languages :</li>
+                        <li><i class="fab fa-node-js"></i>Node.js</li>
+                        <li><i class="fas fa-code"></i>TypeScript</li>
+                        <li><i class="fas fa-table"></i>SQL</li>
+                        <li><i class="fab fa-java"></i>Java</li>
+                        <li><i class="fas fa-server"></i>Servlet</li>
+                        <li class="shead">Frameworks/Tools :</li>
+                        <li><i class="fab fa-angular"></i>Angular</li>
+                        <li><i class="fas fa-database"></i>PostgreSQL</li>
+                        <li class="shead">Other Skills :</li>
+                        <li><i class="fas fa-keyboard"></i>English Typewriting</li>
+                        <li class="shead">Soft Skills :</li>
+                        <li>Problem-Solving</li>
+                        <li> Communication,</li>
+                        <li>Collaboration</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -115,14 +120,17 @@
         <div id="Con" class="Contacts d-block" #contacts>
             <b class="cnts-title">CONTACT</b>
             <div class="cnts-content d-block">
-                <a id="email" href="bharathmayan4454@gmail.com"><i class="fas fa-envelope"></i>
-                    Email Me!</a><br>
-                <span><i class="fas fa-phone"></i>
-                    Phone: </span> <a id="num" href="9345443519">9345443519</a><br>
-                <span>Social Links:</span><a id="social-link" href=""><i class="fab fa-instagram"></i>
-                </a><a id="social-link" href=""><i class="fab fa-linkedin"></i>
+                <b id="lbl"> Email Me! </b><a id="email" href="bharathmayan4454@gmail.com"><i
+                        class="fas fa-envelope"></i></a><br>
+                <b id="lbl">Call me! </b> <a id="num" href="9345443519"></a> <i class="fas fa-phone"></i><br>
+                <b id="lbl">Social Links! </b>
+                <a id="social-link" href="https://www.instagram.com/bharath_official05/?hl=en"><i
+                        class="fab fa-instagram"></i>
+                </a><a id="social-link"
+                    href="https://www.linkedin.com/in/bharath-mayan-b8422821a/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3B2d2e42ac-4931-4f84-ae16-566d63a8199b"><i
+                        class="fab fa-linkedin"></i>
                 </a>
-                <a id="social-link" href=""><i class="fab fa-github"></i>
+                <a id="social-link" href="https://github.com/Bharath-mayan"><i class="fab fa-github"></i>
                 </a>
             </div>
         </div>
