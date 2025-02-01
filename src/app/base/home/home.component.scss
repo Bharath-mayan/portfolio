@@ -11,7 +11,7 @@ section {
 
 
 .main-container {
-    background-color: #016064;
+    background-color: #413839;
     display: block;
     width: auto;
 }
@@ -54,7 +54,8 @@ section {
     // width: 100%;
     margin: 0% 5% 0% 5%;
     padding: 5%;
-    background-color: #02767a;
+    // background-color: #02767a;
+    background-color: #806061;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -95,7 +96,7 @@ section {
 
 .About {
     padding: 5%;
-    background-color: #02767a;
+    background-color: #806061;
     // outline: solid black;
     margin: 5%;
 
@@ -122,7 +123,7 @@ section {
 }
 
 .Skills {
-    background-color: #02767a;
+    background-color: #806061;
     margin: 5%;
     padding: 5%;
     width: auto;
@@ -184,7 +185,7 @@ section {
 }
 
 .Projects {
-    background-color: #02767a;
+    background-color: #806061;
     margin: 5%;
     // outline: solid black;
     padding: 5%;
@@ -207,7 +208,7 @@ section {
 }
 
 .Services {
-    background-color: #02767a;
+    background-color: #806061;
     // width: 100%;
     margin: 5%;
     padding: 5%;
@@ -238,7 +239,7 @@ section {
 }
 
 .Contacts {
-    background-color: #02767a;
+    background-color: #806061;
     // width: 100%;
     margin: 5%;
     padding: 5%;
@@ -363,7 +364,7 @@ section {
 
     .navbar2 {
         width: 30%;
-        height: 70vh;
+        height: auto;
         right: 0;
         top: 10%;
         background-color: rgb(17, 1, 1);
@@ -395,7 +396,7 @@ section {
         // width: 100%;
         margin: 0% 5% 0% 5%;
         padding: 5%;
-        background-color: #02767a;
+        background-color: #806061;
         flex-direction: column;
         align-items: center;
         justify-content: center;
