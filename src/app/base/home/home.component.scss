@@ -55,7 +55,7 @@ section {
     margin: 0% 5% 0% 5%;
     padding: 5%;
     // background-color: #02767a;
-    background-color: #806061;
+    background-color: #454545;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ section {
 
 .About {
     padding: 5%;
-    background-color: #806061;
+    background-color: #454545;
     // outline: solid black;
     margin: 5%;
 
@@ -123,7 +123,7 @@ section {
 }
 
 .Skills {
-    background-color: #806061;
+    background-color: #454545;
     margin: 5%;
     padding: 5%;
     width: auto;
@@ -141,25 +141,6 @@ section {
         align-items: center;
         margin-left: 20%;
 
-        // h {
-        // display: flex;
-        // justify-content: center;
-        // }
-
-        // span {
-        //     font-size: 25px;
-        //     font-weight: 600;
-        //     color: #070707;
-        // }
-
-        // li {
-        //     display: block;
-        //     margin-left: 5%;
-        //     color: cyan;
-        //     flex-direction: column;
-        // }
-
-
         .skillList {
             font-family: Arial, sans-serif;
 
@@ -169,15 +150,20 @@ section {
                 margin: 0;
 
                 .shead {
+                    color: #000000;
                     font-weight: bold;
                     font-size: 20px;
                     margin-top: 5%;
                 }
 
+                li {
+                    color: #000010;
+                }
+
                 li i {
+
                     margin-right: 10px;
                     font-size: 18px;
-
                 }
             }
         }
@@ -185,7 +171,7 @@ section {
 }
 
 .Projects {
-    background-color: #806061;
+    background-color: #454545;
     margin: 5%;
     // outline: solid black;
     padding: 5%;
@@ -203,12 +189,13 @@ section {
     }
 
     p {
+        color: #000000;
         font-weight: 600;
     }
 }
 
 .Services {
-    background-color: #806061;
+    background-color: #454545;
     // width: 100%;
     margin: 5%;
     padding: 5%;
@@ -239,7 +226,7 @@ section {
 }
 
 .Contacts {
-    background-color: #806061;
+    background-color: #454545;
     // width: 100%;
     margin: 5%;
     padding: 5%;
@@ -255,12 +242,6 @@ section {
     .cnts-content {
         align-items: center;
         margin-left: 20%;
-
-        // span {
-        //     font-size: 25px;
-        //     font-weight: 600;
-        //     color: #caeb0c;
-        // }
 
         #email {
             color: black;
@@ -285,6 +266,9 @@ section {
         i {
             color: rgb(2, 204, 255);
             font-size: 100%;
+        }
+        b{
+            color: #000000;
         }
     }
 }
@@ -396,7 +380,7 @@ section {
         // width: 100%;
         margin: 0% 5% 0% 5%;
         padding: 5%;
-        background-color: #806061;
+        background-color: #454545;
         flex-direction: column;
         align-items: center;
         justify-content: center;
