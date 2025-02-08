@@ -11,7 +11,7 @@ section {
 
 
 .main-container {
-    background-color: #413839;
+    background-color: #978f8f;
     display: block;
     width: auto;
 }
@@ -51,11 +51,8 @@ section {
 }
 
 .Home {
-    // width: 100%;
     margin: 0% 5% 0% 5%;
     padding: 5%;
-    // background-color: #02767a;
-    background-color: #5C5858;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -96,7 +93,10 @@ section {
 
 .About {
     padding: 5%;
-    background-color: #5C5858;
+    // background-color: #5C5858;
+    outline: #5a5455;
+    outline-width: 2px;
+    outline-style: groove;
     // outline: solid black;
     margin: 5%;
 
@@ -123,7 +123,10 @@ section {
 }
 
 .Skills {
-    background-color: #5C5858;
+    // background-color: #5C5858;
+    outline: #5a5455;
+    outline-width: 2px;
+    outline-style: groove;
     margin: 5%;
     padding: 5%;
     width: auto;
@@ -171,8 +174,11 @@ section {
 }
 
 .Projects {
-    background-color: #5C5858;
+    // background-color: #5C5858;
     margin: 5%;
+    outline: #5a5455;
+    outline-width: 2px;
+    outline-style: groove;
     // outline: solid black;
     padding: 5%;
 
@@ -195,7 +201,10 @@ section {
 }
 
 .Services {
-    background-color: #5C5858;
+    // background-color: #5C5858;
+    outline: #5a5455;
+    outline-width: 2px;
+    outline-style: groove;
     // width: 100%;
     margin: 5%;
     padding: 5%;
@@ -226,7 +235,10 @@ section {
 }
 
 .Contacts {
-    background-color: #5C5858;
+    // background-color: #5C5858;
+    outline: #5a5455;
+    outline-width: 2px;
+    outline-style: groove;
     // width: 100%;
     margin: 5%;
     padding: 5%;
@@ -267,7 +279,8 @@ section {
             color: rgb(2, 204, 255);
             font-size: 100%;
         }
-        b{
+
+        b {
             color: #000000;
         }
     }
@@ -380,7 +393,10 @@ section {
         // width: 100%;
         margin: 0% 5% 0% 5%;
         padding: 5%;
-        background-color: #5C5858;
+        // background-color: #5C5858;
+        outline: #5a5455;
+        outline-width: 2px;
+        outline-style: groove;
         flex-direction: column;
         align-items: center;
         justify-content: center;
