@@ -11,7 +11,7 @@ section {
 
 
 .main-container {
-    background-color: #978f8f;
+    background-color: #e7e6e6;
     display: block;
     width: auto;
 }
@@ -57,6 +57,8 @@ section {
     align-items: center;
     justify-content: center;
 
+
+
     #pro-image {
         max-width: 30%;
         border-radius: 50%;
@@ -68,7 +70,7 @@ section {
 
         #wel {
             text-align: center;
-            color: white;
+            color: rgb(0, 0, 0);
             padding-bottom: 30%;
         }
 
@@ -79,7 +81,7 @@ section {
 
         #role {
             font-weight: 600;
-            color: #00ffea;
+            color: #0058ff;
         }
 
         .wel-lines {
@@ -93,11 +95,9 @@ section {
 
 .About {
     padding: 5%;
-    // background-color: #5C5858;
-    outline: #5a5455;
-    outline-width: 2px;
-    outline-style: groove;
-    // outline: solid black;
+    background-color: #dbd2d2;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     margin: 5%;
 
     .abt-title {
@@ -105,11 +105,10 @@ section {
         margin-left: 10px;
         font-size: 40px;
         font-weight: 600;
-        color: #ddd;
+        color: #020202;
     }
 
     .about-lines {
-        font-family: 'Lato', sans-serif;
         word-spacing: 5px;
         margin: 30px 15px 0px 15px;
         font-size: 18px;
@@ -117,7 +116,7 @@ section {
         color: #000000;
 
         span {
-            color: #00fa4b;
+            color: #0400fa;
         }
     }
 }
@@ -393,13 +392,15 @@ section {
         // width: 100%;
         margin: 0% 5% 0% 5%;
         padding: 5%;
-        // background-color: #5C5858;
-        outline: #5a5455;
-        outline-width: 2px;
-        outline-style: groove;
+        background-color: #dbd2d2;
+        // outline: #5a5455;
+        // outline-width: 2px;
+        // outline-style: groove;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        border-radius: 10px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
         #pro-image {
             max-width: 50%;
